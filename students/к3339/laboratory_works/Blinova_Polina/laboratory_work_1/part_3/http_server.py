@@ -40,7 +40,7 @@ def run_http_server():
             client_socket, address = server_socket.accept()
             print(f"Подключен клиент: {address}")
             
-            content = read_html_file('part_3/index.html')
+            content = read_html_file('index.html')
             
             response = create_http_response(content)
             
