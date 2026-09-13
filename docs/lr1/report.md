@@ -95,8 +95,8 @@ lab_1/
 
 ## Пример работы
 
-![Работа UDP](img/lr1_udp_1.png)
-![Работа UDP](img/lr1_udp_2.png)
+![Работа UDP](../img/lr1_udp_1.png)
+![Работа UDP](../img/lr1_udp_2.png)
 
 ---
 
@@ -155,8 +155,8 @@ lab_1/
 
 ## Пример работы
 
-![Работа TCP](img/lr1_tcp_1.png)
-![Работа TCP](img/lr1_tcp_2.png)
+![Работа TCP](../img/lr1_tcp_1.png)
+![Работа TCP](../img/lr1_tcp_2.png)
 
 ---
 
@@ -214,8 +214,8 @@ Connection: close
 
 ## Пример работы
 
-![Работа HTTP](img/lr1_http_1.png)
-![Работа HTTP](img/lr1_http_2.png)
+![Работа HTTP](../img/lr1_http_1.png)
+![Работа HTTP](../img/lr1_http_2.png)
 
 ---
 
@@ -290,10 +290,10 @@ self.clients = {
 
 ## Пример работы
 
-![Работа чата](img/lr1_chat_1.png)
-![Работа чата](img/lr1_chat_2.png)
-![Работа чата](img/lr1_chat_3.png)
-![Работа чата](img/lr1_chat_4.png)
+![Работа чата](../img/lr1_chat_1.png)
+![Работа чата](../img/lr1_chat_2.png)
+![Работа чата](../img/lr1_chat_3.png)
+![Работа чата](../img/lr1_chat_4.png)
 
 ---
 
@@ -305,7 +305,7 @@ self.clients = {
 
 1. Принимает информацию о дисциплине и оценке
 2. Отдаёт все оценки в виде HTML-страницы
-3. **Группирует оценки по предмету**
+3. Группирует оценки по предмету
 
 ## Модель данных
 
@@ -470,8 +470,8 @@ html = template.replace('{{GRADES}}', grades_html)
 
 ## Пример работы
 
-![Главная](img/lr1_web_server_index.png)
-![Журнал](img/lr1_web_server_grades.png)
+![Главная](../img/lr1_web_server_index.png)
+![Журнал](../img/lr1_web_server_grades.png)
 
 ---
 
