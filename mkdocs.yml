@@ -14,6 +14,7 @@ theme:
 nav:
   - Главная: index.md
   - ЛР1. Сокеты: lr1/report.md
+  - ЛР2. Простой сайт на Django: lr2/report.md
 
 markdown_extensions:
   - admonition
