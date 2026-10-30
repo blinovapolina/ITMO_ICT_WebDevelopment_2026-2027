@@ -124,27 +124,27 @@ class TourListView(ListView):
 
 ### 5.1. Список туров с фильтрацией и пагинацией
 
-![Список туров](images/01_tours_list.png)
+![Список туров](../img/01_tours_list.png)
 
 ### 5.2. Детальная страница тура
 
-![Детали тура](images/02_tour_detail.png)
+![Детали тура](../img/02_tour_detail.png)
 
 ### 5.3. Личный кабинет и бронирования
 
-![Мои брони](images/03_reservations.png)
+![Мои брони](../img/03_reservations.png)
 
 ### 5.4. Подтверждение броней в Django-admin
 
-![Админка](images/04_admin_action.png)
+![Админка](../img/04_admin_action.png)
 
 ### 5.5. Отчёт «Продажи по странам»
 
-![Отчёт](images/05_sold_tours.png)
+![Отчёт](../img/05_sold_tours.png)
 
 ### 5.6. Регистрация (без паспортных данных для туров)
 
-![Регистрация](images/06_register.png)
+![Регистрация](../img/06_register.png)
 
 ---
 
