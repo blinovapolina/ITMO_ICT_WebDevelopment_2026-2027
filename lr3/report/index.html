@@ -11,6 +11,8 @@
       
       
       
+        <link rel="prev" href="../../lr2/report/">
+      
       
       
         
@@ -21,7 +23,7 @@
     
     
       
-        <title>ЛР3. Реализация серверной части приложения средствами Django и Django REST Framework - Веб-программирование. Блинова Полина. Группа К3339</title>
+        <title>ЛР3 (Django REST Framework) - Веб-программирование. Блинова Полина. Группа К3339</title>
       
     
     
@@ -106,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ЛР3. Реализация серверной части приложения средствами Django и Django REST Framework
+              ЛР3 (Django REST Framework)
             
           </span>
         </div>
@@ -272,6 +274,252 @@
   
 
       </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ЛР3 (Django REST Framework)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ЛР3 (Django REST Framework)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-er-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Модель данных (ER-диаграмма)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Модель данных (ER-диаграмма)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Описание сущностей и связей:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Таблица эндпоинтов
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Таблица эндпоинтов">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-djoser" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. Аутентификация (Djoser)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-crud-viewsets-router" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. CRUD-операции (ViewSets + Router)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-get-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3. Вложенные GET-запросы (Требование ЛР)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4. Аналитические запросы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Примеры запросов и ответов
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Примеры запросов и ответов">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-djoser" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1. Регистрация и получение токена (Djoser)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-post" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2. Создание читального зала (POST)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-get" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3. Вложенный GET (Читатели зала)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4. Аналитика (Проценты по образованию)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5. Аналитика (Просроченные выдачи)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#36" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.6. Кастомная операция (Исключение старых читателей)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
